@@ -34,10 +34,16 @@ public class Cliente {
 		}
 	}
 	
-  public void removeAnimal(Animal exAnimal) {		
+    public void removeAnimal(Animal exAnimal) {
+		for(int i = 0; i < animais.length; i++) {
+			if(animais[i].equals(exAnimal)) {
+				animais[i] = null;
+				exAnimal.setCliente(null);
+			}
+		}
 	}
 
 	public Animal[] getAnimais() {
 		return animais;
-	}      
+	}     
 }
