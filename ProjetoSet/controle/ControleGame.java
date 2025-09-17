@@ -1,9 +1,8 @@
 package controle;
-
 import java.util.HashSet;
 import java.util.Iterator;
-
 import modelo.Game;
+
 
 public class ControleGame {
 
