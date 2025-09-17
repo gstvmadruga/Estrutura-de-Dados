@@ -1,8 +1,7 @@
 package controle;
-
 import java.util.TreeSet;
-
 import modelo.Campeao;
+
 
 public class ControleCampeao {
 
