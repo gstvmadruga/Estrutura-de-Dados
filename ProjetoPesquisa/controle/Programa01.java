@@ -1,7 +1,5 @@
 package controle;
-
 import java.util.Scanner;
-
 public class Programa01 {
 	
 	public static int pesquisar(int[] numeros, int num) {
@@ -9,7 +7,6 @@ public class Programa01 {
 		for(int i = 0; i < numeros.length; i++)
 			if(numeros[i] == num)
 				return i;
-		
 		return -1;
 	}
 
@@ -21,14 +18,11 @@ public class Programa01 {
 		 System.out.println("Digite um numero para pesquisa: ");
 		 int num = input.nextInt();
 		 
-		 
 		 int posicao = pesquisar(numeros, num);
 		 
 		 if(posicao != -1)
 			 System.out.println("Elemento encontrado na posição: " + posicao);
 		 else
-			 System.out.println("Elemento não encontrado na coleção ");
-			 
+			 System.out.println("Elemento não encontrado na coleção ");		 
 	}
-
 }
