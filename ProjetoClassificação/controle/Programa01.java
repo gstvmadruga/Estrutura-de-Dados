@@ -1,4 +1,3 @@
-
 package controle;
 
 public class Programa01 {
@@ -17,7 +16,6 @@ public class Programa01 {
 		return numeros;
 }
 
-	
 	public static void main(String[] args) {
 		int[] numeros = {3,17,26,42,70,83,1,5,23,38,68,79,94};
 		
@@ -31,5 +29,4 @@ public class Programa01 {
 		for (int i = 0; i < numeros.length; i++)
 			System.out.print(numeros[i]+ " | ");
 	}
-
 }
